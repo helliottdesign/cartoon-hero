@@ -1,6 +1,7 @@
 html, body{
 	font-family: Helvetica, sans-serif;
 	margin: 0;
+	text-align: center;
 }
 
 header{
@@ -11,8 +12,17 @@ header{
 }
 
 h1{
+	font-family: 'Patrick Hand', cursive;
 	font-size: 80px;
 	color: #ffffff;
+}
+
+h2{
+	font-family: 'Patrick Hand', cursive;
+	font-size: 40px;
+	color: #000000;
+	background-color: #c6f4d6;
+	border-radius: 20px;
 }
 
 header img{
@@ -30,6 +40,7 @@ header img{
 
 img.big-image{
 	max-width: 100%;
+	padding-top: 50px;
 }
 
 p.caption{
@@ -40,7 +51,7 @@ p.caption{
 
 ul{
 	list-style: none;
-	padding: 0;
+	padding: 20 20 20 0px;
 	margin: 0;
 }
 
